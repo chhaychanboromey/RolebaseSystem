@@ -1,0 +1,4 @@
+◇ injected env (3) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+Login Microservice running on port 5003
+MongoDB connected successfully: rolebase
