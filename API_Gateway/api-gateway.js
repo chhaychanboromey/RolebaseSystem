@@ -9,8 +9,8 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 const REGISTER_URL = process.env.REGISTER_URL || 'http://localhost:5002';
 const LOGIN_URL = process.env.LOGIN_URL || 'http://localhost:5003';
-const ADMIN_URL = process.env.ADMIN_URL || 'http://localhost:5004';
-const USER_URL = process.env.USER_URL || 'http://localhost:5005';
+const ADMIN_URL = process.env.ADMIN_URL || 'http://34.205.24.66:5004';
+const USER_URL = process.env.USER_URL || 'http://13.221.103.146:5005';
 
 const verifyRole = (requiredRole) => {
   return (req, res, next) => {
