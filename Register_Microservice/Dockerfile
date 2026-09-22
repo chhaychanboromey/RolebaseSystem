@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5002
 
 # Command to run the app
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
